@@ -2,9 +2,9 @@ public class Clientes {
     private int numero;
     private String sobrenome;
     private double rg;
-    private int cpf;
+    private String cpf;
 
-    public Clientes(int numero, String sobrenome, double rg, int cpf) {
+    public Clientes(int numero, String sobrenome, double rg, String cpf) {
         this.numero = numero;
         this.sobrenome = sobrenome;
         this.rg = rg;
@@ -35,11 +35,11 @@ public class Clientes {
         this.rg = rg;
     }
 
-    public double getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
-    public void setCpf(int cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 }
